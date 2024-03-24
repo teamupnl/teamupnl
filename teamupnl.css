@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* Importing a Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+
+/* Changing the main font and background colour */
+
+
+
+/* Changing the background colour for the header */
+
+header {
+	background-color: #000060;
+}
+
+/* Changing the background color for the navigation bar */
+
+.navbar {
+	background-color: #4d3699
+}
+
+/* Effect on social media buttons */
+
+footer a:hover {
+	opacity: .5;
+}
+
+/* Corporate navbar */
+
+#navbar-corporate a.active {
+	color: #800000;
+	font-weight: bold;
+}
+
+/* Hero Section shadow */
+
+.white-shadow {
+	text-shadow: -.01em -.01em .01em white,
+		.02em .02em .02em white,
+		0 0 .2em white,
+		0 0 .5em white;
+}
+
+.mycolumnstyle{
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.backgroundwebsite {
+    background-color: #ECE4DB;	
+}
+.carouselcaptionmine {
+    color: #000000;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.carouselblock {
+    width: 800px;
+    height: 199px;
+}
+
+.buttoncustom {
+    background-color: #DD9C47;
+    color: #FFFFFF;
+}
+
+.newboxbottom {
+    background-color: #5135A0;
+    margin-top: 31px;
+    margin-right: 31px;
+    margin-bottom: 31px;
+    margin-left: 31px;
+    padding-top: 100px;
+    padding-right: 220px;
+    padding-bottom: 200px;
+    padding-left: 220px;
+    width: 100%;
+    height: 50px;
+}
+
+.newboxlogo {
+    width: 1196px;
+	height: 100px;
+    background-color: #E9982F;
+}
+
+
+
+
+.backgroundbuttons {
+    background-color: #B70645;	
+}
+
+.bartext{
+    color: #FFFFFF;	
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background-video {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust as needed */
+    overflow: hidden;
+}
+
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Change text color as needed */
+    z-index: 1;
+}
+
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color:#EEE4DA;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/* Media Query for devices withi coarse pointers and no hover functionality */
+
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') white no-repeat center center scroll;
+  }
+
+  header video {
+    display: none;
+  }
+}
+
