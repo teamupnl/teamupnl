@@ -14,7 +14,11 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #4d3699
+    background-color: #4d3699;
+}
+
+.navbartext {
+    color: #FFFFFF;	
 }
 
 .herosection {
