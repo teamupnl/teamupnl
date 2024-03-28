@@ -106,7 +106,14 @@ footer a:hover {
     text-transform: none;
 }
 
+.containerprofile {
+    background-color: #ECE4DB;	
+	
+}
 
+.headerprofilepage{
+    color: #4D3699;	
+}
 .backgroundbuttons {
     background-color: #B70645;	
 }
@@ -115,6 +122,9 @@ footer a:hover {
     color: #FFFFFF;	
 }
 
+.bgpinkish {
+    background-color: #A82447;	
+}
 
 body, html {
     height: 100%;
@@ -404,7 +414,7 @@ body{
 }
 
 .chat .chat-history ul {
-    padding: 0
+    padding: 0;
 }
 
 .chat .chat-history ul li {
@@ -427,7 +437,7 @@ body{
 
 .chat .chat-history .message-data-time {
     color: #434651;
-    padding-left: 6px
+    padding-left: 6px;
 }
 
 .chat .chat-history .message {
@@ -455,7 +465,8 @@ body{
 }
 
 .chat .chat-history .my-message {
-    background: #efefef
+    background-color: #A82447;
+    color: #FFFFFF;
 }
 
 .chat .chat-history .my-message:after {
@@ -473,8 +484,9 @@ body{
 }
 
 .chat .chat-history .other-message {
-    background: #e8f1f3;
-    text-align: right
+    background-color: #A82447;
+    text-align: right;
+    color: #FFFFFF;
 }
 
 .chat .chat-history .other-message:after {
