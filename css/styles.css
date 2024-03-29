@@ -17,12 +17,32 @@ header {
     background-color: #4d3699;
 }
 
+#stickynavbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+
 .navbartext {
     color: #FFFFFF;	
 }
 
 .herosection {
 	background-color: #4d3699
+}
+
+.image-opacity {
+    opacity: 0.5; /* Adjust the opacity value as needed (from 0 to 1) */
+}
+
+.containerbackground {
+	background: #4d3699;
+}
+
+.textwhite {
+	color: #FFFFFF;
 }
 
 /* Effect on social media buttons */
@@ -126,6 +146,17 @@ footer a:hover {
     background-color: #A82447;	
 }
 
+.backgrounddescription {
+    background-color: #FFFFFF;
+}
+
+.titlevalues {
+    color: #000000;	
+}
+
+.descriptionvalues {
+	color: #000000;
+}
 body, html {
     height: 100%;
     margin: 0;
@@ -575,4 +606,102 @@ body{
         height: calc(100vh - 350px);
         overflow-x: auto
     }
+}
+
+/* Custom CSS for Matchmaker */
+
+/* Navbar styling */
+.matchmaker-navbar {
+  background-color: #4d3699; /* TeamUp purple */
+}
+
+.matchmaker-navbar-brand img {
+  filter: brightness(0) invert(1); /* Invert logo colors for better visibility */
+}
+
+.matchmaker-nav-link {
+  color: #ece4db; /* Light beige */
+}
+
+.matchmaker-nav-link:hover {
+  color: #a82447; /* TeamUp red */
+}
+
+/* Form styling */
+.matchmaker-form-label {
+  color: #4d3699; /* TeamUp purple */
+}
+
+.matchmaker-form-control {
+  border-color: #a82447; /* TeamUp red */
+}
+
+.matchmaker-form-select {
+  border-color: #a82447; /* TeamUp red */
+}
+
+/* Button styling */
+.matchmaker-btn-primary {
+    background-color: #a82447; /* TeamUp red */
+    border-color: #a82447; /* TeamUp red */
+    color: #FFFFFF;
+}
+
+.matchmaker-btn-primary:hover {
+  background-color: #a82447; /* TeamUp red */
+  border-color: #a82447; /* TeamUp red */
+}
+
+/* Card styling */
+.matchmaker-card {
+  margin-top: 20px;
+  background-color: #dd9c47; /* Light beige */
+  border-color: #a82447; /* TeamUp red */
+}
+
+.matchmaker-card-title {
+  color: #FFFFFF; /* TeamUp purple */
+}
+
+.matchmaker-card-text {
+  color: #FFFFFF; /* TeamUp purple */
+}
+
+.matchmaker-card-link {
+  color: #a82447; /* TeamUp red */
+}
+
+.matchmaker-card-link:hover {
+  color: #4d3699; /* TeamUp purple */
+}
+
+/* Footer styling */
+.matchmaker-footer {
+  background-color: #ece4db; /* Light beige */
+  color: #4d3699; /* TeamUp purple */
+  text-align: center;
+  padding: 20px 0;
+}
+
+.matchmaker-footer a {
+  color: #4d3699; /* TeamUp purple */
+}
+
+.matchmaker-footer a:hover {
+  color: #a82447; /* TeamUp red */
+}
+
+/* For You page styles */
+.foryou-team-card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.foryou-team-card-body {
+    color: #ece4db;
+}
+
+.foryou-footer {
+    color: #a82447;
 }
