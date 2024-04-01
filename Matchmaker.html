@@ -26,17 +26,23 @@
 		<li class="nav-item">
               <a class="nav-link navbartext" href="aboutus.html">About Us</a>
             </li>
+          <li>  
+			  <a class="nav-link dropdown-toggle navbartext" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Profile
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="personal-profile-page.html">Personal Profile</a></li>
+            <li><a class="dropdown-item" href="team-profile-page.html">Team Profile</a></li>
+          </ul>
+        </li>
           <li class="nav-item">
-            <a class="nav-link navbartext" href="Profile Page.html">Profile</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link navbartext" href="Matchmaker.html">Matchmaker</a>
+            <a class="nav-link navbartext" href="matchmaker.html">Matchmaker</a>
           </li>
          <li class="nav-item">
-            <a class="nav-link navbartext" href="For You.html">For You</a>
+            <a class="nav-link navbartext" href="for-you-page.html">For You</a>
           </li>
          <li class="nav-item">
-            <a class="nav-link navbartext" href="Chats.html">Chats</a>
+            <a class="nav-link navbartext" href="chats.html">Chats</a>
           </li>
          <li class="nav-item">
             <a class="nav-link navbartext" href="corporate.html">Corporate</a>
@@ -76,6 +82,13 @@
               <option value="other">Other</option>
             </select>
           </div>
+			<div class="mb-3">
+            <label for="gender" class="form-label">Team/Individual</label>
+            <select class="form-select matchmaker-form-select" id="Team/Individual">
+              <option value="male">Team</option>
+              <option value="female">Individual</option>
+            </select>
+          </div>
           <button type="submit" class="btn matchmaker-btn-primary">Find Matches</button>
         </form>
       </div>
@@ -107,6 +120,35 @@
       </div>
     </div>
   </div>
+	
+	<div class="container">
+		<h1>Found Matches</h1>
+		<div class="card matchmaker-card">
+          <div class="card-body">
+            <h5 class="card-title matchmaker-card-title">John Doe</h5>
+            <p class="card-text matchmaker-card-text">Looking for volleyball players in Breda</p>
+            <a href="#" class="btn matchmaker-btn-primary">Connect</a>
+          </div>
+        </div>
+        <!-- Add more suggested matches here -->
+        <div class="card matchmaker-card">
+          <div class="card-body">
+            <h5 class="card-title matchmaker-card-title">Jane Smith</h5>
+            <p class="card-text matchmaker-card-text">Seeking soccer coach in Amsterdam</p>
+            <a href="#" class="btn matchmaker-btn-primary">Connect</a>
+          </div>
+        </div>
+        <div class="card matchmaker-card">
+          <div class="card-body">
+            <h5 class="card-title matchmaker-card-title">Michael Johnson</h5>
+            <p class="card-text matchmaker-card-text">Looking for basketball team in Rotterdam</p>
+            <a href="#" class="btn matchmaker-btn-primary">Connect</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+	
 
   <footer class="shadow-lg mt-auto py-4 matchmaker-footer">
     <div class="container d-flex justify-content-between align-items-center">
@@ -147,7 +189,7 @@
       </ul>
     </div>
   </footer>
-</div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
