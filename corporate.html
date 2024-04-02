@@ -23,10 +23,10 @@
   <body data-bs-spy="scroll" data-bs-target="#navbar-corporate" data-bs-smooth-scroll="true">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+       <nav class="navbar navbar-expand-lg navbar-light" id="stickynavbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="images/buas-square.svg" width="40" alt="Breda University of Applied Sciences">
+          <img src="images/teamuplogowhiteee.png" width="90" alt="TeamUp logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,19 +34,40 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link fw-bold navbartext" aria-current="page" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="corporate.html">Corporate</a>
+			  <li class="nav-item">
+              <a class="nav-link navbartext" href="aboutus.html">About Us</a>
+            </li>
+			  <li>
+             <a class="nav-link dropdown-toggle navbartext" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Profile
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="personal-profile-page.html">Personal Profile</a></li>
+            <li><a class="dropdown-item" href="team-profile-page.html">Team Profile</a></li>
+          </ul>
+        </li>
+           <li class="nav-item">
+              <a class="nav-link navbartext" href="matchmaker.html">Matchmaker</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link navbartext" href="for-you-page.html">For You</a>
+            </li>
+			 <li class="nav-item">
+              <a class="nav-link navbartext" href="chats.html">Chats</a>
+            </li>
+			 <li class="nav-item">
+              <a class="nav-link navbartext" href="corporate.html">Corporate</a>
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
+		</div>
+    </nav> <br><br>
     <!-- End of navigation bar -->
 
-    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
-      <h1 class="fw-light">Corporate information</h1>
+    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light backgroundwebsite">
+      <h1 class="fw-light fw-bold">Corporate information</h1>
     </header>
 
     <main class="container-fluid container-xl">
@@ -86,11 +107,12 @@
             <em>(please change text <strong>and</strong> hyperlink destination)</em>
           </p>
           <p>
-            This website was created by&hellip; <em>(only students listed below will be graded!)</em>
+            This website was created by&hellip;
           </p>
           <ol>
-            <li>Student (ID: 000000)</li>
-            <li>Student (ID: 000000)</li>
+            <li>Jaida van Breda 	(ID: 222012)</li>
+            <li>Inge van den Broek 	(ID: 211215)</li>
+			<li>Hripsime Ananikjan 	(ID: 000000)</li>
           </ol>
           <!-- End General -->
 
@@ -326,6 +348,24 @@
         </div>
       </div>
     </main>
-
+<footer class="shadow-lg mt-auto py-4 matchmaker-footer">
+    <div class="container d-flex justify-content-between align-items-center">
+      <p>
+        © 2024 &mdash; TeamUp
+      </p>
+      <ul class="list-unstyled d-flex align-items-center opacity-75">
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=61556726592329" target="_blank">
+            <img class="m-2" src="images/facebook.svg" alt="Follow us on" width="26">
+          </a>
+		  </li>
+        <li>
+          <a href="https://www.instagram.com/teamupnl?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+            <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
   </body>
 </html>

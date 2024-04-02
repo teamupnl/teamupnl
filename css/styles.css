@@ -45,6 +45,20 @@ header {
 	color: #FFFFFF;
 }
 
+.maintext{
+	
+}
+
+.custombuttonred {
+    background-color: #A82447;
+}
+.custombuttonyellow{
+	background-color: #DD9C47;
+}
+.custombuttonpurple{
+	background-color: #4D3699;
+}
+
 /* Effect on social media buttons */
 
 footer a:hover {
@@ -655,8 +669,13 @@ body{
 /* Card styling */
 .matchmaker-card {
   margin-top: 20px;
-  background-color: #dd9c47; /* Light beige */
-  border-color: #a82447; /* TeamUp red */
+  background-color: #a82447;
+  border-color: #dd9c47; 
+}
+.matchmaker-card2 {
+  margin-top: 20px;
+  background-color: #dd9c47;
+  border-color: #a82447; 
 }
 
 .matchmaker-card-title {
