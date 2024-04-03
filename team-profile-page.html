@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Team Profile Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
@@ -26,15 +26,7 @@
 			  <li class="nav-item">
               <a class="nav-link navbartext" href="aboutus.html">About Us</a>
             </li>
-            <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle navbartext" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Profile
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="personal-profile-page.html">Personal Profile</a></li>
-            <li><a class="dropdown-item" href="team-profile-page.html">Team Profile</a></li>
-          </ul>
-        </li>
+            
              <li class="nav-item">
               <a class="nav-link navbartext" href="matchmaker.html">Matchmaker</a>
             </li>
@@ -49,6 +41,7 @@
             </li>
           </ul>
         </div>
+		  <a href="personal-profile-page.html"><img src="images/profile-iconn.png" alt="profile icon" style="width: 25px; height: 25px;"></a>
 		</div>
     </nav>
 	  </div>
@@ -59,7 +52,7 @@
           <!-- Breadcrumb -->
     <section class="container containerprofile">
 		<div class="btn-group">
-  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <button class="btn btn-lg dropdown-toggle custombuttonpurple navbartext" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     Team Profile
   </button>
   <ul class="dropdown-menu">
@@ -73,26 +66,24 @@
                     <div class="card-body p-1-9 p-sm-2-3 p-md-6 p-lg-7">
                         <div class="row align-items-center">
                             <div class="col-lg-6 mb-4 mb-lg-0">
-                                <img src="images/foryouerasmusvolley.png" alt="profielfoto">
+                                <img src="images/teamprofilephoto.jpg" alt="profielfoto" style="width: 365px; height: 365px;">
                             </div>
                             <div class="col-lg-6 px-xl-10">
-                                <div class="d-lg-inline-block py-1-9 px-1-9 px-sm-6 mb-1-9 rounded bgpinkish">
+                              <div class="d-lg-inline-block py-1-9 px-1-9 px-sm-6 mb-1-9 rounded bgpinkish">
                                     <h3 class="h2 text-white mb-0">Forza SD DS1&nbsp;</h3>
-                                    <span class="text-primary">First Class</span>
+                                    <span class="navbartext">First Class</span>
                                 </div>
                                 <ul class="list-unstyled mb-1-9">
                                     <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Position:</span> Middle Hitter</li>
                                     <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Experience:</span> 5 years</li>
                                     <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Email:</span> lisapadmos@gmail.com</li>
-                                    <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Website:</span> www.example.com</li>
-                                    <li class="display-28"><span class="display-26 text-secondary me-2 font-weight-600">Phone:</span> 0645765653</li>
+                                    <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Phone:&nbsp;</span> 0612345678</li>
+                                    <li class="display-28"><span class="display-26 text-secondary me-2 font-weight-600">Location:</span> Zierikzee</li>
+									
+									<div>
+										<a href="chats.html" class="btn custombuttonred float-right navbartext">Chat With Us!</a></div>
                                 </ul>
-                                <ul class="social-icon-style1 list-unstyled mb-0 ps-0">
-                                  <li><a href="#!"><i class="ti-twitter-alt"></i></a></li>
-                                    <li><a href="#!"><i class="ti-facebook"></i></a></li>
-                                    <li><a href="#!"><i class="ti-pinterest"></i></a></li>
-                                    <li><a href="#!"><i class="ti-instagram"></i></a></li>
-                              </ul>
+                                
                             </div>
                         </div>
                     </div>
@@ -105,74 +96,73 @@
                     <p class="mb-0">Volleyball teaches me about commitment, teamwork, and leadership—whether I'm jumping for a ball or strategizing with teammates. Not to mention, the best friendships and memories I make along the way.  So, don't hesitate to contact me if you think I would fit in your team!</p>
                 </div>
             </div>
+			  <div class="col-lg-12 mb-4 mb-sm-5">
+                <div>
+                    <span class="section-title mb-3 mb-sm-4 headerprofilepage">We Need You!</span>
+                    <p>Hi there! My name is Lisa Padmos, and my passion is volleyball. I've been doing this for five years, and I've grown to love everything about it. For me volleyball isn't just a game, it's my passion. </p>
+                    <p class="mb-0">Volleyball teaches me about commitment, teamwork, and leadership—whether I'm jumping for a ball or strategizing with teammates. Not to mention, the best friendships and memories I make along the way.  So, don't hesitate to contact me if you think I would fit in your team!</p>
+                </div>
+            </div>
 
 			<div>
 				<h5 class="fw-bold">Team Members</h5>
 			</div>
                 <!-- Team cards go here -->
                 <div class="col-md-4">
-                    <div class="card foryou-team-card" style="background-color: #4d3699;">
-                        <img src="images/foryouerasmusvolley.png" class="card-img-top" alt="Team 1">
+                    <div class="card team-profile-cards">
+                        <img src="images/louisee.png" class="card-img-top" alt="Team 1">
                         <div class="card-body foryou-team-card-body">
-                            <h5 class="card-title">Team 1</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="#" class="btn btn-primary">View Team</a>
+                            <h5 class="card-title text-center">Louise</h5>
                         </div>
                     </div>
                 </div>
 				<div class="col-md-4">
-                    <div class="card foryou-team-card" style="background-color: #4d3699;">
-                        <img src="images/foryouerasmusvolley.png" class="card-img-top" alt="Team 1">
+                  <div class="card team-profile-cards">
+                        <img src="images/esraa.png" class="card-img-top" alt="Team 1">
                         <div class="card-body foryou-team-card-body">
-                            <h5 class="card-title">Team 1</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="#" class="btn btn-primary">View Team</a>
+                            <h5 class="card-title text-center">Esra</h5>
+             
+                      </div>
+                    </div>
+                </div>
+				<div class="col-md-4">
+                    <div class="card team-profile-cards">
+                        <img src="images/irsa.png" class="card-img-top" alt="Team 1">
+                        <div class="card-body foryou-team-card-body">
+                            <h5 class="card-title text-center">Irsa</h5>
                         </div>
                     </div>
                 </div>
 				<div class="col-md-4">
-                    <div class="card foryou-team-card" style="background-color: #4d3699;">
-                        <img src="images/foryouerasmusvolley.png" class="card-img-top" alt="Team 1">
+                    <div class="card team-profile-cards">
+                        <img src="images/lisa.png" class="card-img-top" alt="Team 1">
                         <div class="card-body foryou-team-card-body">
-                            <h5 class="card-title">Team 1</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="#" class="btn btn-primary">View Team</a>
+                            <h5 class="card-title text-center">Lisa</h5>
+               
                         </div>
                     </div>
                 </div>
 				<div class="col-md-4">
-                    <div class="card foryou-team-card" style="background-color: #4d3699;">
-                        <img src="images/foryouerasmusvolley.png" class="card-img-top" alt="Team 1">
+                    <div class="card team-profile-cards">
+                        <img src="images/daphne.png" class="card-img-top" alt="Team 1">
                         <div class="card-body foryou-team-card-body">
-                            <h5 class="card-title">Team 1</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="#" class="btn btn-primary">View Team</a>
+                            <h5 class="card-title text-center">Daphne</h5>
+                   
                         </div>
                     </div>
                 </div>
 				<div class="col-md-4">
-                    <div class="card foryou-team-card" style="background-color: #4d3699;">
-                        <img src="images/foryouerasmusvolley.png" class="card-img-top" alt="Team 1">
+                  <div class="card team-profile-cards">
+                        <img src="images/muriel.png" class="card-img-top" alt="Team 1">
                         <div class="card-body foryou-team-card-body">
-                            <h5 class="card-title">Team 1</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="#" class="btn btn-primary">View Team</a>
-                        </div>
-                    </div>
-                </div>
-				<div class="col-md-4">
-                    <div class="card foryou-team-card" style="background-color: #4d3699;">
-                        <img src="images/foryouerasmusvolley.png" class="card-img-top" alt="Team 1">
-                        <div class="card-body foryou-team-card-body">
-                            <h5 class="card-title">Team 1</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="#" class="btn btn-primary">View Team</a>
-                        </div>
+                            <h5 class="card-title text-center">Müriel</h5>
+             
+                      </div>
                     </div>
                 </div>
 				   <div class="row mt-4">
                 <div class="col text-center">
-                    <a href="#" class="btn btn-primary">View More</a>
+                    <a href="#" class="btn custombuttonpurple navbartext">View More</a>
                 </div>
             </div>
         </div>
@@ -181,15 +171,8 @@
             <!-- View more button -->
 		</section>
 		</div>
-
-			
-			
-			
-			
-			
-			
-			
-	<button type="button" class="btn btn-primary btn-lg">Post Profile</button>
+	
+	<button type="button" class="btn custombuttonpurple navbartext btn-lg">Post Profile</button>
 		</div>
 
    

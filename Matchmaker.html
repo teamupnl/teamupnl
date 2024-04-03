@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap demo</title>
+    <title>Matchmaker</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
@@ -26,15 +26,7 @@
 		<li class="nav-item">
               <a class="nav-link navbartext" href="aboutus.html">About Us</a>
             </li>
-          <li>  
-			  <a class="nav-link dropdown-toggle navbartext" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Profile
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="personal-profile-page.html">Personal Profile</a></li>
-            <li><a class="dropdown-item" href="team-profile-page.html">Team Profile</a></li>
-          </ul>
-        </li>
+          
           <li class="nav-item">
             <a class="nav-link navbartext" href="matchmaker.html">Matchmaker</a>
           </li>
@@ -49,6 +41,7 @@
           </li>
         </ul>
       </div>
+		<a href="personal-profile-page.html"><img src="images/profile-iconn.png" alt="profile icon" style="width: 25px; height: 25px;"></a>
     </div>
   </nav>
   <br><br><br> 
@@ -94,27 +87,43 @@
       </div>
       
       <div class="col-md-6">
-        <h2>Suggested Matches for You</h2>
+        <h2>Suggested Matches For You</h2>
         <div class="card matchmaker-card">
           <div class="card-body">
-            <h5 class="card-title matchmaker-card-title">John Doe</h5>
-            <p class="card-text matchmaker-card-text">Looking for volleyball players in Breda</p>
-            <a href="#" class="btn matchmaker-btn-primary">Connect</a>
+			  <div class="circle-container">
+				  <a href="team-profile-page.html"><img src="images/hajraadames2matchmaker.png" alt="Your Image"></a>
+			  <img src="images/hajraadames2matchmaker.png" alt="Your Image">
+				</div>
+            <h5 class="card-title matchmaker-card-title">ESVV Hajraa Dames 2</h5>
+			  <h6 class="navbartext">Eindhoven - Noord-Brabant</h6>
+			  <h6 class="navbartext fw-light">Promotion Class</h6>
+            <p class="card-text matchmaker-card-text fw-light">Looking for middle hitter in Eindhoven</p>
+            <a href="chats.html" class="btn custombuttonyellow navbartext float-right">Connect</a>
           </div>
         </div>
         <!-- Add more suggested matches here -->
         <div class="card matchmaker-card">
           <div class="card-body">
-            <h5 class="card-title matchmaker-card-title">Jane Smith</h5>
-            <p class="card-text matchmaker-card-text">Seeking soccer coach in Amsterdam</p>
-            <a href="#" class="btn matchmaker-btn-primary">Connect</a>
+			   <div class="circle-container">
+			  <a href="team-profile-page.html"><img src="images/hajraamatchmaker.webp" alt="Your Image"></a>
+				</div>
+            <h5 class="card-title matchmaker-card-title">ESVV Hajraa Dames 1&nbsp;</h5>
+			  <h6 class="navbartext">Eindhoven - Noord-Brabant</h6>
+			  <h6 class="navbartext fw-light">First Division</h6>
+            <p class="card-text matchmaker-card-text fw-light">Seeking volleyball players in Eindhoven</p>
+            <a href="chats.html" class="btn custombuttonyellow navbartext float-right">Connect</a>
           </div>
         </div>
         <div class="card matchmaker-card">
           <div class="card-body">
-            <h5 class="card-title matchmaker-card-title">Michael Johnson</h5>
-            <p class="card-text matchmaker-card-text">Looking for basketball team in Rotterdam</p>
-            <a href="#" class="btn matchmaker-btn-primary">Connect</a>
+			   <div class="circle-container">
+  				<a href="personal-profile-page.html"><img src="images/nimirforyouu.jpg" alt="Your Image"></a>
+				</div>
+        <h5 class="card-title matchmaker-card-title">Nimir Abdelaziz (Coach)</h5>
+				  <h6 class="navbartext">Breda - Noord-Brabant</h6>
+				  <h6 class="navbartext fw-light">Second Division</h6>
+            <p class="card-text matchmaker-card-text fw-light">Looking for volleyball players in Breda</p>
+            <a href="chats.html" class="btn float-right custombuttonyellow navbartext">Connect</a>
           </div>
         </div>
       </div>
@@ -125,24 +134,41 @@
 		<h1>Found Matches</h1>
 		<div class="card matchmaker-card2">
           <div class="card-body">
-            <h5 class="card-title matchmaker-card-title">John Doe</h5>
-            <p class="card-text matchmaker-card-text">Looking for volleyball players in Breda</p>
-            <a href="#" class="btn matchmaker-btn-primary">Connect</a>
+			  <div class="circle-container">
+  				<a href="personal-profile-page.html"><img src="images/nimirforyouu.jpg" alt="Your Image"></a>
+				</div>
+			  <div class="text-container">
+            <h5 class="card-title matchmaker-card-title">Nimir Abdelaziz (Coach)</h5>
+				  <h6 class="navbartext">Breda - Noord-Brabant</h6>
+				  <h6 class="navbartext fw-light">Second Division</h6>
+            <p class="card-text matchmaker-card-text fw-light">Looking for volleyball players in Breda</p>
+            <a href="chats.html" class="btn matchmaker-btn-primary float-right">Connect</a>
+			  </div>
           </div>
         </div>
         <!-- Add more suggested matches here -->
         <div class="card matchmaker-card2">
           <div class="card-body">
-            <h5 class="card-title matchmaker-card-title">Jane Smith</h5>
-            <p class="card-text matchmaker-card-text">Seeking soccer coach in Amsterdam</p>
-            <a href="#" class="btn matchmaker-btn-primary">Connect</a>
+		    <div class="circle-container">
+			  <a href="team-profile-page.html"><img src="images/hajraamatchmaker.webp" alt="Your Image"></a>
+				</div>
+            <h5 class="card-title matchmaker-card-title">ESVV Hajraa Dames 1&nbsp;</h5>
+			  <h6 class="navbartext">Eindhoven - Noord-Brabant</h6>
+			  <h6 class="navbartext fw-light">First Division</h6>
+            <p class="card-text matchmaker-card-text fw-light">Seeking volleyball players in Eindhoven</p>
+            <a href="chats.html" class="btn matchmaker-btn-primary float-right fw">Connect</a>
           </div>
         </div>
         <div class="card matchmaker-card2">
           <div class="card-body">
-            <h5 class="card-title matchmaker-card-title">Michael Johnson</h5>
-            <p class="card-text matchmaker-card-text">Looking for basketball team in Rotterdam</p>
-            <a href="#" class="btn matchmaker-btn-primary">Connect</a>
+			   <div class="circle-container">
+			  <a href="team-profile-page.html"><img src="images/hajraadames2matchmaker.png" alt="Your Image"></a>
+				</div>
+            <h5 class="card-title matchmaker-card-title">ESVV Hajraa Dames 2</h5>
+			  <h6 class="navbartext">Eindhoven - Noord-Brabant</h6>
+			  <h6 class="navbartext fw-light">Promotion Class</h6>
+            <p class="card-text matchmaker-card-text fw-light">Looking for middle hitter in Eindhoven</p>
+            <a href="chats.html" class="btn matchmaker-btn-primary float-right">Connect</a>
           </div>
         </div>
       </div>

@@ -725,15 +725,16 @@ body{
     color: #a82447;
 }
 
-.team-profile-slider {
-  width: 100%;
-  margin: 50px 0;
-  position: relative;
+.foryou-team-card-color{
+    background-color: #4D3699;	
 }
 
-.team-profile-carousel {
-  display: flex;
-  overflow-x: hidden;
+.foryou-person-card-color{
+    background-color: #A82447;	
+}
+
+.team-profile-cards{
+	background: #a82447;
 }
 
 .team-profile-item {
@@ -825,3 +826,80 @@ body{
   text-align: center;
 }
   
+.circle-container {
+  width: 100px; /* Set the width and height to your desired size */
+  height: 100px;
+  border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
+  overflow: hidden; /* Hide overflowing parts of the image */
+  float: left; /* Float the image to the left */
+  margin-right: 20px; /* Add margin to create space between the image and text */
+	
+}
+
+.circle-container img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+	
+}
+.text-container {
+  overflow: hidden; /* Clear the float */
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+	
+}
+.corporatepagetitles{
+	color: #4D3699;
+}
+.corporatepagesubtitles{
+	color: #a82447;
+}
+.custombuttonred2 {
+	background: #A82447;
+    position: absolute;
+    bottom: 20px; /* Adjust this value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+}
+.backgroundsubs{
+	background: #A82447;
+}
+
+.containersubs{
+    width: 1000px;
+    height: 400px;
+    border-radius: 25px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.container-subs-left,
+.container-subs-right {
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.container-subs-left {
+    background-color: #4d3699;
+}
+.container-subs-right {
+    background-color: #dd9c47;
+}
+
+.container-full-width {
+    border-radius: 15px;
+    background-color: #a82447;
+    padding: 20px;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+.container-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
