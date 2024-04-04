@@ -6,6 +6,14 @@
     <title>Matchmaker</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+	
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body class="backgroundwebsite">
   
@@ -21,23 +29,23 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link navbartext fw-bold" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link navbartext fw-bold ubuntu-light" aria-current="page" href="index.html">Home</a>
           </li>
 		<li class="nav-item">
-              <a class="nav-link navbartext" href="aboutus.html">About Us</a>
+              <a class="nav-link navbartext ubuntu-light" href="aboutus.html">About Us</a>
             </li>
           
           <li class="nav-item">
-            <a class="nav-link navbartext" href="matchmaker.html">Matchmaker</a>
+            <a class="nav-link navbartext ubuntu-light" href="matchmaker.html">Matchmaker</a>
           </li>
          <li class="nav-item">
-            <a class="nav-link navbartext" href="for-you-page.html">For You</a>
+            <a class="nav-link navbartext ubuntu-light" href="for-you-page.html">For You</a>
           </li>
          <li class="nav-item">
-            <a class="nav-link navbartext" href="chats.html">Chats</a>
+            <a class="nav-link navbartext ubuntu-light" href="chats.html">Chats</a>
           </li>
          <li class="nav-item">
-            <a class="nav-link navbartext" href="corporate.html">Corporate</a>
+            <a class="nav-link navbartext ubuntu-light" href="corporate.html">Corporate</a>
           </li>
         </ul>
       </div>
@@ -47,16 +55,16 @@
   <br><br><br> 
   <div class="container mt-5">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 paytone-one-regular">
         <h2>Find Your Match</h2>
         <form>
           <div class="mb-3">
-            <label for="location" class="form-label">Location</label>
-            <input type="text" class="form-control matchmaker-form-control" id="location" placeholder="Enter your location">
+            <label for="location" class="form-label ubuntu-light">Location</label>
+            <input type="text" class="form-control matchmaker-form-control ubuntu-light" id="location" placeholder="Enter your location">
           </div>
           <div class="mb-3">
-            <label for="sport" class="form-label">Sport</label>
-            <select class="form-select matchmaker-form-select" id="sport">
+            <label for="sport" class="form-label ubuntu-light">Sport</label>
+            <select class="form-select matchmaker-form-select ubuntu-light" id="sport">
               <option value="volleyball">Volleyball</option>
               <option value="basketball">Basketball</option>
               <option value="soccer">Soccer</option>
@@ -64,41 +72,41 @@
             </select>
           </div>
           <div class="mb-3">
-            <label for="age" class="form-label">Age</label>
-            <input type="number" class="form-control matchmaker-form-control" id="age" placeholder="Enter your age">
+            <label for="age" class="form-label ubuntu-light">Age</label>
+            <input type="number" class="form-control matchmaker-form-control ubuntu-light" id="age" placeholder="Enter your age">
           </div>
           <div class="mb-3">
-            <label for="gender" class="form-label">Gender</label>
-            <select class="form-select matchmaker-form-select" id="gender">
+            <label for="gender" class="form-label ubuntu-light">Gender</label>
+            <select class="form-select matchmaker-form-select ubuntu-light" id="gender">
               <option value="male">Male</option>
               <option value="female">Female</option>
               <option value="other">Other</option>
             </select>
           </div>
 			<div class="mb-3">
-            <label for="gender" class="form-label">Team/Individual</label>
-            <select class="form-select matchmaker-form-select" id="Team/Individual">
+            <label for="gender" class="form-label ubuntu-light">Team/Individual</label>
+            <select class="form-select matchmaker-form-select ubuntu-light" id="Team/Individual">
               <option value="male">Team</option>
               <option value="female">Individual</option>
             </select>
           </div>
-          <button type="submit" class="btn matchmaker-btn-primary">Find Matches</button>
+         <button type="submit" class="btn matchmaker-btn-primary ubuntu-light">Find Matches</button>
         </form>
       </div>
       
       <div class="col-md-6">
-        <h2>Suggested Matches For You</h2>
+        <h2 class="paytone-one-regular">Suggested Matches For You</h2>
         <div class="card matchmaker-card">
           <div class="card-body">
 			  <div class="circle-container">
 				  <a href="team-profile-page.html"><img src="images/hajraadames2matchmaker.png" alt="Your Image"></a>
 			  <img src="images/hajraadames2matchmaker.png" alt="Your Image">
 				</div>
-            <h5 class="card-title matchmaker-card-title">ESVV Hajraa Dames 2</h5>
-			  <h6 class="navbartext">Eindhoven - Noord-Brabant</h6>
-			  <h6 class="navbartext fw-light">Promotion Class</h6>
-            <p class="card-text matchmaker-card-text fw-light">Looking for middle hitter in Eindhoven</p>
-            <a href="chats.html" class="btn custombuttonyellow navbartext float-right">Connect</a>
+            <h5 class="card-title matchmaker-card-title ubuntu-bold">ESVV Hajraa Dames 2</h5>
+			  <h6 class="navbartext ubuntu-medium">Eindhoven - Noord-Brabant</h6>
+			  <h6 class="navbartext fw-light ubuntu-light">Promotion Class</h6>
+            <p class="card-text matchmaker-card-text fw-light ubuntu-light">Looking for middle hitter in Eindhoven</p>
+            <a href="chats.html" class="btn custombuttonyellow navbartext float-right ubuntu-light">Connect</a>
           </div>
         </div>
         <!-- Add more suggested matches here -->
@@ -107,11 +115,11 @@
 			   <div class="circle-container">
 			  <a href="team-profile-page.html"><img src="images/hajraamatchmaker.webp" alt="Your Image"></a>
 				</div>
-            <h5 class="card-title matchmaker-card-title">ESVV Hajraa Dames 1&nbsp;</h5>
-			  <h6 class="navbartext">Eindhoven - Noord-Brabant</h6>
-			  <h6 class="navbartext fw-light">First Division</h6>
-            <p class="card-text matchmaker-card-text fw-light">Seeking volleyball players in Eindhoven</p>
-            <a href="chats.html" class="btn custombuttonyellow navbartext float-right">Connect</a>
+            <h5 class="card-title matchmaker-card-title ubuntu-bold">ESVV Hajraa Dames 1&nbsp;</h5>
+			  <h6 class="navbartext ubuntu-medium">Eindhoven - Noord-Brabant</h6>
+			  <h6 class="navbartext fw-light ubuntu-light">First Division</h6>
+            <p class="card-text matchmaker-card-text fw-light ubuntu-light">Seeking volleyball players in Eindhoven</p>
+            <a href="chats.html" class="btn custombuttonyellow navbartext float-right ubuntu-light">Connect</a>
           </div>
         </div>
         <div class="card matchmaker-card">
@@ -119,11 +127,11 @@
 			   <div class="circle-container">
   				<a href="personal-profile-page.html"><img src="images/nimirforyouu.jpg" alt="Your Image"></a>
 				</div>
-        <h5 class="card-title matchmaker-card-title">Nimir Abdelaziz (Coach)</h5>
-				  <h6 class="navbartext">Breda - Noord-Brabant</h6>
-				  <h6 class="navbartext fw-light">Second Division</h6>
-            <p class="card-text matchmaker-card-text fw-light">Looking for volleyball players in Breda</p>
-            <a href="chats.html" class="btn float-right custombuttonyellow navbartext">Connect</a>
+        <h5 class="card-title matchmaker-card-title ubuntu-bold">Nimir Abdelaziz (Coach)</h5>
+				  <h6 class="navbartext ubuntu-medium">Breda - Noord-Brabant</h6>
+				  <h6 class="navbartext fw-light ubuntu-light">Second Division</h6>
+            <p class="card-text matchmaker-card-text fw-light ubuntu-light">Looking for volleyball players in Breda</p>
+            <a href="chats.html" class="btn float-right custombuttonyellow navbartext ubuntu-light">Connect</a>
           </div>
         </div>
       </div>
@@ -131,18 +139,18 @@
   </div>
 	
 	<div class="container">
-		<h1>Found Matches</h1>
+		<h1 class="paytone-one-regular requesttext" id="found-matches">Found Matches</h1>
 		<div class="card matchmaker-card2">
           <div class="card-body">
 			  <div class="circle-container">
   				<a href="personal-profile-page.html"><img src="images/nimirforyouu.jpg" alt="Your Image"></a>
 				</div>
 			  <div class="text-container">
-            <h5 class="card-title matchmaker-card-title">Nimir Abdelaziz (Coach)</h5>
-				  <h6 class="navbartext">Breda - Noord-Brabant</h6>
-				  <h6 class="navbartext fw-light">Second Division</h6>
-            <p class="card-text matchmaker-card-text fw-light">Looking for volleyball players in Breda</p>
-            <a href="chats.html" class="btn matchmaker-btn-primary float-right">Connect</a>
+            <h5 class="card-title matchmaker-card-title ubuntu-bold">Nimir Abdelaziz (Coach)</h5>
+				  <h6 class="navbartext ubuntu-medium">Breda - Noord-Brabant</h6>
+				  <h6 class="navbartext fw-light ubuntu-light">Second Division</h6>
+            <p class="card-text matchmaker-card-text fw-light ubuntu-light">Looking for volleyball players in Breda</p>
+            <a href="chats.html" class="btn matchmaker-btn-primary float-right ubuntu-light">Connect</a>
 			  </div>
           </div>
         </div>
@@ -152,11 +160,11 @@
 		    <div class="circle-container">
 			  <a href="team-profile-page.html"><img src="images/hajraamatchmaker.webp" alt="Your Image"></a>
 				</div>
-            <h5 class="card-title matchmaker-card-title">ESVV Hajraa Dames 1&nbsp;</h5>
-			  <h6 class="navbartext">Eindhoven - Noord-Brabant</h6>
-			  <h6 class="navbartext fw-light">First Division</h6>
-            <p class="card-text matchmaker-card-text fw-light">Seeking volleyball players in Eindhoven</p>
-            <a href="chats.html" class="btn matchmaker-btn-primary float-right fw">Connect</a>
+            <h5 class="card-title matchmaker-card-title ubuntu-bold">ESVV Hajraa Dames 1&nbsp;</h5>
+			  <h6 class="navbartext ubuntu-medium">Eindhoven - Noord-Brabant</h6>
+			  <h6 class="navbartext fw-light ubuntu-light">First Division</h6>
+            <p class="card-text matchmaker-card-text fw-light ubuntu-light">Seeking volleyball players in Eindhoven</p>
+            <a href="chats.html" class="btn matchmaker-btn-primary float-right fw ubuntu-light">Connect</a>
           </div>
         </div>
         <div class="card matchmaker-card2">
@@ -164,11 +172,11 @@
 			   <div class="circle-container">
 			  <a href="team-profile-page.html"><img src="images/hajraadames2matchmaker.png" alt="Your Image"></a>
 				</div>
-            <h5 class="card-title matchmaker-card-title">ESVV Hajraa Dames 2</h5>
-			  <h6 class="navbartext">Eindhoven - Noord-Brabant</h6>
-			  <h6 class="navbartext fw-light">Promotion Class</h6>
-            <p class="card-text matchmaker-card-text fw-light">Looking for middle hitter in Eindhoven</p>
-            <a href="chats.html" class="btn matchmaker-btn-primary float-right">Connect</a>
+            <h5 class="card-title matchmaker-card-title ubuntu-bold">ESVV Hajraa Dames 2</h5>
+			  <h6 class="navbartext ubuntu-medium">Eindhoven - Noord-Brabant</h6>
+			  <h6 class="navbartext fw-light ubuntu-light">Promotion Class</h6>
+            <p class="card-text matchmaker-card-text fw-light ubuntu-light">Looking for middle hitter in Eindhoven</p>
+            <a href="chats.html" class="btn matchmaker-btn-primary float-right ubuntu-light">Connect</a>
           </div>
         </div>
       </div>
@@ -177,8 +185,8 @@
 	
 
 <footer class="shadow-lg mt-auto py-4 matchmaker-footer">
-    <div class="container d-flex justify-content-between align-items-center">
-      <p>
+    <div class="container d-flex justify-content-between align-items-center ">
+      <p class="ubuntu-light">
         © 2024 &mdash; TeamUp
       </p>
       <ul class="list-unstyled d-flex align-items-center opacity-75">
