@@ -875,20 +875,27 @@ body{
     margin-left: 20px;
 }
 
-.container-subs-left,
-.container-subs-right {
+.container-subs-left {
+    background-color: #4d3699;
     border-radius: 15px;
     padding: 20px;
     margin-bottom: 40px;
-    margin-left: 20px;
- 
-}
-.container-subs-left {
-    background-color: #4d3699;
+    margin-left: 100px;
+    float: right;
 }
 .container-subs-right {
     background-color: #dd9c47;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+	margin-right: 80px;
+    float: left;
 }
+.match-width {
+    width: 100%;
+}
+
 
 .container-full-width2 {
     border-radius: 15px;
