@@ -254,7 +254,7 @@ header .overlay {
   }
 
   header video {
-    display: none;
+    display:flex;
   }
 }
 
