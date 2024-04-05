@@ -254,7 +254,7 @@ header .overlay {
   }
 
   header video {
-    display: none;
+    display:flex;
   }
 }
 
@@ -981,4 +981,8 @@ body{
 
 .backgroundbeige{
 	background-color: #ece4db;
+}
+
+.backgroundred{
+	background: #A82447;
 }
